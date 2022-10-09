@@ -6,7 +6,7 @@ An OCR program such as FineReader recognizes the text in the image and creates a
 
 The program in this repository takes the text extracted from the pdf and stitches the lines together when it sees an intra-word hyphenation. 
 
-In addition, since this program is designed to work on a project to digitize a Russian novel, the program removes improbable characters for 19th century Russian text.
+In addition, since this program is designed to work on a project of digitization of Russian novel, the program removes improbable characters for 19th century Russian text.
 
 ## How to?
 
