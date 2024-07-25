@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+title: Lines merger
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Boris
+    family-names: Orekhov
+    name-particle: Boris Orekhov
+    email: nevmenandr@gmail.com
+    affiliation: HSE University
+    orcid: 'https://orcid.org/0000-0002-9099-0436'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.12814092
+repository-code: 'https://github.com/nevmenandr/lines_merge_OCR'
+abstract: >-
+  An OCR program such as FineReader recognizes the text in
+  the image and creates a pdf file where the line breaks
+  correspond to the line breaks in the original image. In
+  the hyphenation places, which are located inside the word,
+  the program puts a special character called "soft hyphen".
+
+
+  The program in this repository takes the text extracted
+  from the pdf and stitches the lines together when it sees
+  an intra-word hyphenation.
+
+
+  In addition, since this program is designed to work on a
+  project of digitization of Russian novel, the program
+  removes improbable characters for 19th century Russian
+  text.
+keywords:
+  - pdf
+  - ocr
+license: GPL-3.0
+commit: a60f01202c42782203fb3e3797ac7722ecffa683
+version: 1.0.0
+date-released: '2022-10-10'
